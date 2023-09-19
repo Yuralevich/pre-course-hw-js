@@ -4,5 +4,5 @@ let passport = {
 };
 const deepPass = structuredClone(passport)
 deepPass.name = "Ivan"
-console.log(passport)
-console.log(deepPass)
+console.log(passport.name)
+console.log(deepPass.name)
